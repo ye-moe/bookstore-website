@@ -1,12 +1,14 @@
 <?php
 
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "csc_350";
+$host = getenv("DB_HOST");
+$user = getenv("DB_USER");
+$pass = getenv("DB_PASSWORD");
+$db   = getenv("DB_NAME");
 
-if(!$con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname)){
-    die("Failed to connect!");
+$conn = new mysqli($host, $user, $pass, $db);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
 
 ?>
