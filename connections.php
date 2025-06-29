@@ -5,11 +5,11 @@ $user = $_ENV["DB_USER"] ?? '';
 $pass = $_ENV["DB_PASSWORD"] ?? '';
 $db   = $_ENV["DB_NAME"] ?? '';
 
-$conn = new mysqli($host, $user, $pass, $db);
+$con = new mysqli($host, $user, $pass, $db);
 
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if ($con->connect_error) {
+    die("Connection failed: " . $con->connect_error);
 }
 
-?>
+
 
