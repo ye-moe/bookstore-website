@@ -1,9 +1,9 @@
 <?php
 
-$host = getenv("DB_HOST");
-$user = getenv("DB_USER");
-$pass = getenv("DB_PASSWORD");
-$db   = getenv("DB_NAME");
+$host = getenv("sql5.freesqldatabase.com");
+$user = getenv("sql5787461");
+$pass = getenv("aLQ1xnEgbq");
+$db   = getenv("sql5787461");
 
 $conn = new mysqli($host, $user, $pass, $db);
 

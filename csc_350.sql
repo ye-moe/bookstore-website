@@ -36,7 +36,7 @@ CREATE TABLE `books` (
   `rrp` decimal(7,2) NOT NULL DEFAULT 0.00,
   `quantity` int(11) NOT NULL,
   `img` text NOT NULL,
-  `date_added` datetime NOT NULL DEFAULT current_timestamp()
+  `date_added` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
