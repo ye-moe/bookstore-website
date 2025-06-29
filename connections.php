@@ -1,9 +1,9 @@
 <?php
 
-$host = $_ENV["sql5.freesqldatabase.com"] ?? '';
-$user = $_ENV["sql5787461"] ?? '';
-$pass = $_ENV["aLQ1xnEgbq"] ?? '';
-$db   = $_ENV["sql5787461"] ?? '';
+$host = $_ENV["DB_HOST"] ?? '';
+$user = $_ENV["DB_USER"] ?? '';
+$pass = $_ENV["DB_PASSWORD"] ?? '';
+$db   = $_ENV["DB_NAME"] ?? '';
 
 $conn = new mysqli($host, $user, $pass, $db);
 
@@ -12,4 +12,4 @@ if ($conn->connect_error) {
 }
 
 ?>
-// trigger redeploy
+
