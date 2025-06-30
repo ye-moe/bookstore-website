@@ -71,7 +71,7 @@ if (isset($_SESSION['error'])) {
 <body>
     <section>
         <form action="login.php" method="post" enctype="multipart/form-data">
-            <h1 style="font-size:50px;text-align:center;margin-top:5em;">Moe's Pen & Paper</h1>
+            <h1 style="font-size:50px;text-align:center;margin-top:5em;">The Pen & Paper</h1>
             <h2 style="font-size:50px;text-align:center;">Log In</h2>
             <input class="input-box" type="email" name="email" placeholder="Email" autocomplete="off" required>
             <br><br>

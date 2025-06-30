@@ -24,7 +24,7 @@ session_start();
         <!-- Start of Navigation Bar -->
             <nav class="navbar">
                 <div class="navdiv">
-                    <div class="logo" style="font-size:40px;padding-left:143px;margin-top:33px;">Moe's Pen & Paper</div>
+                    <div class="logo" style="font-size:40px;padding-left:143px;margin-top:33px;">The Pen & Paper</div>
                     <ul style="padding-right:9em;padding-top:2em;">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="products.php">Explore</a></li>

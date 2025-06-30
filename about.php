@@ -24,7 +24,7 @@ session_start();
         <!-- Start of Navigation Bar -->
             <nav class="navbar">
                 <div class="navdiv">
-                    <div class="logo" style="font-size:40px;padding-left:143px;margin-top:33px;">Moe's Pen & Paper</div>
+                    <div class="logo" style="font-size:40px;padding-left:143px;margin-top:33px;">The Pen & Paper</div>
                     <ul style="padding-right:9em;padding-top:2em;">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="products.php">Explore</a></li>
@@ -50,7 +50,7 @@ session_start();
             <center>
                 <p style="max-width:40%;font-size:50px;">We're changing the way people think about reading</p>
                 <p style="max-width:40%;font-size:20px;">
-                    Welcome to Moe's Pen & Paper! We started this journey with a love for books and a passion for sharing stories. At Moe's
+                    Welcome to The Pen & Paper! We started this journey with a love for books and a passion for sharing stories. At The
                     Pen & Paper, our mission is to provide book lovers with a haven where they can explore, discover and connect through the magic of literature...
                 </p>
                 <p style="max-width:40%;font-size:20px;">

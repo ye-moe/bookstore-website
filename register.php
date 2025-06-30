@@ -43,7 +43,7 @@ session_start();
 <body>
     <section>
         <form action="register.php" method="post" enctype="multipart/form-data">
-            <h1 style="font-size:50px;text-align:center;margin-top:10em;">Moe's Pen & Paper</h1>
+            <h1 style="font-size:50px;text-align:center;margin-top:10em;">The Pen & Paper</h1>
             <h2 style="font-size:50px;text-align:center;">Sign Up</h2>
             <input class="input-box" type="text" name="first_name" placeholder="First Name" autocomplete="off" required>
             <br><br>
@@ -56,7 +56,7 @@ session_start();
             <input class="radio-input" type="radio" name="news" value="news" id="news-radio" required>
             <label for="news-radio" class="radio-label">
                 <span class="radio-custom"></span>
-                Yes, I would like to receive the latest news from Moe's Pen & Paper via email
+                Yes, I would like to receive the latest news from The Pen & Paper via email
             </label>
             <br><br>
             <input class="radio-input" type="radio" name="tspp" value="tspp" id="tspp-radio" required>

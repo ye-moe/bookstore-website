@@ -166,7 +166,7 @@ if (isset($_POST['placeorder']) && isset($_SESSION['cart']) && !empty($_SESSION[
         <!-- Start of Navigation Bar -->
             <nav class="navbar">
                 <div class="navdiv">
-                    <div class="logo" style="font-size:40px;padding-left:143px;margin-top:33px;">Moe's Pen & Paper</div>
+                    <div class="logo" style="font-size:40px;padding-left:143px;margin-top:33px;">The Pen & Paper</div>
                     <ul style="padding-right:9em;padding-top:2em;">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="products.php">Explore</a></li>
@@ -251,7 +251,7 @@ if (isset($_POST['placeorder']) && isset($_SESSION['cart']) && !empty($_SESSION[
         <footer style="color:#FFFFFF;">
             <div class="footer-content" style="display:flex;background:#8B8B83;max-width:100%;padding-left:13em;">
                 <div class="footer-left" style="flex:1;max-width:450px;">
-                    <div class="footer-logo" style="font-size:40px;padding-top:50px;">Moe's Pen & Paper</div>
+                    <div class="footer-logo" style="font-size:40px;padding-top:50px;">The Pen & Paper</div>
                     <p style="font-size:20px;">Discover literature that speaks volumes, right at your fingertips</p>
                     <div style="height:5em;"></div>
                     <p style="font-size:15px;">Terms of Service</p>
@@ -265,7 +265,7 @@ if (isset($_POST['placeorder']) && isset($_SESSION['cart']) && !empty($_SESSION[
                         <div style="display:flex;">
                             <div style="flex:1;display:flex;align-items:center;">
                                 <img src="images/email.png" style="width:30px;height:30px;margin-right:10px;" alt="email">
-                                <p style="font-size:20px;margin:0;">moespenandpaper@gmail.com</p>
+                                <p style="font-size:20px;margin:0;">thepenandpaper@gmail.com</p>
                             </div>
                         </div>
                         <p style="font-size:20px;text-decoration:underline;">Social media</p>

@@ -39,7 +39,7 @@ session_start();
         <!-- Start of Navigation Bar -->
             <nav class="navbar">
                 <div class="navdiv">
-                    <div class="logo" style="font-size:40px;padding-left:143px;margin-top:33px;">Moe's Pen & Paper</div>
+                    <div class="logo" style="font-size:40px;padding-left:143px;margin-top:33px;">The Pen & Paper</div>
                     <ul style="padding-right:9em;padding-top:2em;">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="products.php">Explore</a></li>
@@ -110,7 +110,7 @@ session_start();
             </div>
             <div class="text-ad" style="max-width:400px;margin-right:16em;flex:1;display:flex;flex-direction:column;justify-content:top;align-items:flex-start;color:#FFFFFF;">
                 <div class="rectangle" style="width:100%;height:300px;background-color:#195905;padding-left:15px;padding-right:15px;">
-                    <p style="font-size:40px;margin-top:30px;margin-bottom:1px;">Subscribe to Moe's Pen & Paper</p>
+                    <p style="font-size:40px;margin-top:30px;margin-bottom:1px;">Subscribe to The Pen & Paper</p>
                     <p style="font-size:22px;margin-top:10px;">Join our community of book enthusiasts and immerse yourself in a realm where inspiration knows no bounds. 
                     Sign up now and embark on a journey of literary discovery.</p>
                 </div>
@@ -126,7 +126,7 @@ session_start();
         <footer style="color:#FFFFFF;">
             <div class="footer-content" style="display:flex;background:#8B8B83;max-width:100%;padding-left:13em;">
                 <div class="footer-left" style="flex:1;max-width:450px;">
-                    <div class="footer-logo" style="font-size:40px;padding-top:50px;">Moe's Pen & Paper</div>
+                    <div class="footer-logo" style="font-size:40px;padding-top:50px;">The Pen & Paper</div>
                     <p style="font-size:20px;">Discover literature that speaks volumes, right at your fingertips</p>
                     <div style="height:5em;"></div>
                     <p style="font-size:15px;">Terms of Service</p>
@@ -140,7 +140,7 @@ session_start();
                         <div style="display:flex;">
                             <div style="flex:1;display:flex;align-items:center;">
                                 <img src="images/email.png" style="width:30px;height:30px;margin-right:10px;" alt="email">
-                                <p style="font-size:20px;margin:0;">moespenandpaper@gmail.com</p>
+                                <p style="font-size:20px;margin:0;">thepenandpaper@gmail.com</p>
                             </div>
                         </div>
                         <p style="font-size:20px;text-decoration:underline;">Social media</p>
