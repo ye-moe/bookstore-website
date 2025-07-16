@@ -73,6 +73,12 @@ if (isset($_SESSION['error'])) {
         <form action="login.php" method="post" enctype="multipart/form-data">
             <h1 style="font-size:50px;text-align:center;margin-top:5em;">The Pen & Paper</h1>
             <h2 style="font-size:50px;text-align:center;">Log In</h2>
+            <br>
+            <p style="font-size:20px;text-align:center;">Test login</p>
+            <br>
+            <p style="font-size:20px;text-align:center;">Email: john.doe001@gmail.com</p>
+            <br>
+            <p style="font-size:20px;text-align:center;">Password: 987654</p>
             <input class="input-box" type="email" name="email" placeholder="Email" autocomplete="off" required>
             <br><br>
             <input class="input-box" type="password" name="password" placeholder="Password" autocomplete="off" required>
